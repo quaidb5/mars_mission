@@ -103,15 +103,15 @@ def scrape_mars():
     valles_path = s_url + valles
 
     # this dictionary will hold everything we pull from all the sites
-    scraped_data = {'Title':news_title,
-                    'Body':body_text,
-                    'Feature Image':featured_image_path,
-                    'Table': table_content,
-                    'Weather':tweet,
-                    'Cerebus':cerberus_path,
-                    'Schiaparelli':schiaparelli_path,
-                    'Syrtis':syrtis_path,
-                    'Valles':valles_path
+    scraped_data = {'title':news_title,
+                    'body':body_text,
+                    'feature_image':featured_image_path,
+                    'table': table_content,
+                    'weather':tweet,
+                    'cerebus':cerberus_path,
+                    'schiaparelli':schiaparelli_path,
+                    'syrtis':syrtis_path,
+                    'valles':valles_path
                     }
     # print(scraped_data)
 
